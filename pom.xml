@@ -20,7 +20,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.collaborne</groupId>
 	<artifactId>xliff-core-1.2</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -39,7 +39,7 @@
 		<connection>scm:git:https://github.com/Collaborne/xliff-core-1.2.git</connection>
 		<developerConnection>${project.scm.connection}</developerConnection>
 		<url>${project.url}</url>
-	  <tag>HEAD</tag>
+	  <tag>xliff-core-1.2-1.1</tag>
   </scm>
 
   	<developers>
