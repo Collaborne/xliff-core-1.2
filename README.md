@@ -1,5 +1,5 @@
 # xliff-core-1.2
-Java library with pre-generated JAXB objects for [XLIFF core version 1.2](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html).
+Java library with pre-generated JAXB objects for [XLIFF core version 1.2](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html) specification.
 
 XLIFF is an XML-based format to pass localizable data between CAT tools during a localization process. 
 
