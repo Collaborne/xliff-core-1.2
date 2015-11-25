@@ -6,9 +6,20 @@
 	<groupId>org.oasis</groupId>
 	<artifactId>xliff-core-1.2</artifactId>
 	<version>0.0.1</version>
+	<packaging>jar</packaging>
 
 	<name>XLIFF 1.2</name>
 	<description>Java library with pre-generated objects for XLIFF core version 1.2</description>
+	<url>https://github.com/Collaborne/xliff-core-1.2</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
