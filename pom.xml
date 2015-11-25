@@ -26,7 +26,7 @@
 	<parent>
 		<groupId>com.collaborne</groupId>
 		<artifactId>collaborne-oss-parent</artifactId>
-		<version>3</version>
+		<version>4</version>
 	</parent>
 
 	<name>XLIFF 1.2</name>
