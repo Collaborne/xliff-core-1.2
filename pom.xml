@@ -18,7 +18,7 @@
 -->
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.oasis</groupId>
+	<groupId>com.collaborne</groupId>
 	<artifactId>xliff-core-1.2</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -33,6 +33,22 @@
 	<description>Java library with pre-generated objects for XLIFF core version 1.2</description>
 	<url>https://github.com/Collaborne/xliff-core-1.2</url>
 
+	<inceptionYear>2015</inceptionYear>
+
+  	<developers>
+  		<developer>
+  			<id>ronnyroeller</id>
+  			<name>Ronny Roeller</name>
+  			<url>http://github.com/ronnyroeller</url>
+  			<organization>Collaborne B.V.</organization>
+  			<roles>
+  				<role>architect</role>
+  				<role>developer</role>
+  			</roles>
+  			<timezone>Europe/Amsterdam</timezone>
+  		</developer>
+  	</developers>
+  	
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -42,8 +58,10 @@
 	</licenses>
 	
 	<properties>
+		<maven.minVersion>3.2.1</maven.minVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
 	<build>
 		<plugins>
 			<plugin>
