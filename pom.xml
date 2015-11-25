@@ -23,6 +23,12 @@
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
+        <parent>
+                <groupId>com.collaborne</groupId>
+                <artifactId>collaborne-oss-parent</artifactId>
+                <version>3</version>
+        </parent>
+
 	<name>XLIFF 1.2</name>
 	<description>Java library with pre-generated objects for XLIFF core version 1.2</description>
 	<url>https://github.com/Collaborne/xliff-core-1.2</url>
@@ -58,6 +64,16 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.mycila</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>LICENSE</exclude>
+						<exclude>src/main/xsd/xliff-core-1.2-strict.xsd</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
