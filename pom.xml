@@ -35,6 +35,12 @@
 
 	<inceptionYear>2015</inceptionYear>
 
+	<scm>
+		<connection>scm:git:https://github.com/Collaborne/xliff-core-1.2.git</connection>
+		<developerConnection>${project.scm.connection}</developerConnection>
+		<url>${project.url}</url>
+	</scm>
+
   	<developers>
   		<developer>
   			<id>ronnyroeller</id>
