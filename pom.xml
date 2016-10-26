@@ -112,6 +112,7 @@
 					<excludes>
 						<exclude>LICENSE</exclude>
 						<exclude>src/main/xsd/xliff-core-1.2-strict.xsd</exclude>
+						<exclude>src/main/xsd/xliff-core-1.2-transitional.xsd</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
